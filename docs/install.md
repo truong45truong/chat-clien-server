@@ -18,6 +18,7 @@
 # Install Library:
 -google test:
    > cd external
+   > git clone https://github.com/google/googletest.git
    > cd googletest
    > mkdir build
    > cd build

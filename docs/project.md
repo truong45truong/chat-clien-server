@@ -5,9 +5,9 @@
 -   User can registration, then enter information details.
 -   Console UI features
 
-## How it works:
+# How it works:
 
-# I. User
+## I. User
 1. User create public room
 2. User created room can be delete room
 3. User select show all room chat opened 
@@ -15,12 +15,12 @@
 5. User select feature chat gpt 
 6. Affter user asking questions server response stream answer
 
-# II. Server
+## II. Server
 1. Log and save the main operation info,error or warning
 2. Login authentication
 3. Respond to client requests using a socket connection
 
-# Structure of project:
+## Structure of project:
 ```
 |--- project
     |--- build                      <---- Build project app: server and client:

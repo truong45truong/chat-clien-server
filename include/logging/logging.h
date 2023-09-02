@@ -21,7 +21,7 @@ class Logger {
         std::thread loggingThread;
         bool stopLogging = false;
         Logger(){
-            this->file.open("../logging/logs/logs.txt",ios_base::app);
+            this->file.open("../../logs/logs.txt",ios_base::app);
             loggingThread = std::thread([&]{
                 while(true){
                     std::unique_lock<std::mutex> lock(mtx);
