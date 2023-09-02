@@ -2,6 +2,7 @@
 #include <string>
 #include <fstream>
 #include "logging.h"
+#include "string_logger.cpp"
 
 using namespace std;
 
@@ -23,9 +24,11 @@ Logger::~Logger(){
     file.close();
 }
 
-void Logger::log(const std::string message){
+void Logger::info(const std::string message){
+    struct StringLogger message_lo{0};
     std::lock_guard<std::mutex> lock(mtx);
-    messageQueue.push(message);
-    std::cout<< "LOG START: "<< message << std::endl;
+    std::string context = message_lo.getTimeDetail() + "\n" + message ;
+    messageQueue.push(context);
+    std::cout<< message_lo.getTimeDetail()<< std::endl << message << std::endl;
     cv.notify_one();
 }

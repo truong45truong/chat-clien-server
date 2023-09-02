@@ -1,3 +1,6 @@
+#ifndef LOGGING_H
+#define LOGGING_H
+
 #include <bits/stdc++.h>
 #include <fstream>
 #include <string>
@@ -28,7 +31,6 @@ class Logger {
                     });
 
                     while(!messageQueue.empty()){
-                        std::cout << "START WRITE LOG: " << messageQueue.front() << std::endl;
                         file << messageQueue.front() << std::endl;
                         messageQueue.pop();
                     }
@@ -42,6 +44,8 @@ class Logger {
     public:
         static Logger* getInstance();
         void log(const std::string);
-
+        void info(const std::string);
         ~Logger();
 };
+
+#endif

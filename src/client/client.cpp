@@ -4,6 +4,9 @@
 #include <sys/socket.h>
 #include <netinet/in.h>
 #include <unistd.h>
+#include "../base/constants/message_code.cpp"
+
+using namespace logger_constant;
 
 Client::~Client(){
     close(this->clientSocket);
@@ -51,13 +54,21 @@ void Client::startConnection(int port){
     server_addr.sin_port = htons(port);
 
     if (connect(this->clientSocket, (struct sockaddr*)&server_addr, sizeof(server_addr)) == -1) {
-        std::cerr << "Error connecting to server" << std::endl;
+        std::cerr << logger_constant::ERROR_CNN_SERVER << std::endl;
         close(clientSocket);
         return;
     }
     
 }
+void Client::startReceive(){
+    this->threadReceive = std::thread([&]{
+        while (!this->stop){
+            char buffer[1024];
+            read( this->clientSocket , buffer, 1024); 
+            std::cout << buffer << std::endl;
+        }
+    });
+}
 void Client::sendMessage(std::string msg){
-    const char* message = "Hello from the server!";
-    send(this->clientSocket, message, strlen(message), 0);
+    send(this->clientSocket, msg.c_str() , msg.size(), 0);
 }

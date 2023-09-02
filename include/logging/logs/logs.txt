@@ -1,0 +1,57 @@
+LOGS:
+[ INFO Monday September 2023-43-01 15:09:1693557790,23 AM ]
+[ INFO Monday September 2023-53-01 15:09:1693558435,23 AM ]
+[ INFO Monday September 2023-14-01 16:09:1693559655,23 AM ]
+Client accept127.0.0.1
+[ INFO Monday September 2023-14-01 16:09:1693559684,23 AM ]
+Client accept127.0.0.1
+[ INFO Monday September 2023-16-01 16:09:1693559816,23 AM ]
+Client accept: 127.0.0.1
+[ INFO Monday September 2023-16-01 16:09:1693559818,23 AM ]
+Client accept: 127.0.0.1
+[ INFO Monday September 2023-47-01 16:09:1693561622,23 AM ]
+Client accept: 127.0.0.1
+[ INFO Monday September 2023-48-01 16:09:1693561701,23 AM ]
+Client accept: 127.0.0.1
+[ INFO Monday September 2023-48-01 16:09:1693561728,23 AM ]
+Client accept: 127.0.0.1
+[ INFO Monday September 2023-48-01 16:09:1693561735,23 AM ]
+Client accept: 127.0.0.1
+[ INFO Monday September 2023-49-01 16:09:1693561750,23 AM ]
+Client accept: 127.0.0.1
+[ INFO Monday September 2023-51-01 16:09:1693561868,23 AM ]
+Client accept: 127.0.0.1
+[ INFO Monday September 2023-51-01 16:09:1693561892,23 AM ]
+Client accept: 127.0.0.1
+[ INFO Monday September 2023-52-01 16:09:1693561924,23 AM ]
+Client accept: 127.0.0.1
+[ INFO Monday September 2023-17-01 23:09:1693585041,23 AM ]
+Client accept: 127.0.0.1
+[ INFO Monday September 2023-18-01 23:09:1693585093,23 AM ]
+Client accept: 127.0.0.1
+[ INFO Monday September 2023-18-01 23:09:1693585130,23 AM ]
+Client accept: 127.0.0.1
+[ INFO Monday September 2023-28-01 23:09:1693585709,23 AM ]
+Client accept: 127.0.0.1
+[ INFO Monday September 2023-28-01 23:09:1693585723,23 AM ]
+Disconnect socket
+[ INFO Monday September 2023-30-01 23:09:1693585835,23 AM ]
+Client accept: 127.0.0.1
+[ INFO Monday September 2023-30-01 23:09:1693585838,23 AM ]
+Disconnect socket
+[ INFO Tuesday September 2023-23-02 00:09:1693589035,23 PM ]
+Client accept: 127.0.0.1
+[ INFO Tuesday September 2023-25-02 00:09:1693589107,23 PM ]
+Disconnect socket
+[ INFO Tuesday September 2023-25-02 00:09:1693589108,23 PM ]
+Client accept: 127.0.0.1
+[ INFO Tuesday September 2023-25-02 00:09:1693589110,23 PM ]
+Disconnect socket
+[ INFO Tuesday September 2023-25-02 00:09:1693589125,23 PM ]
+Client accept: 127.0.0.1
+[ INFO Tuesday September 2023-25-02 00:09:1693589139,23 PM ]
+Disconnect socket
+[ INFO Tuesday September 2023-35-02 00:09:1693589718,23 PM ]
+Client accept: 127.0.0.1
+[ INFO Tuesday September 2023-35-02 00:09:1693589727,23 PM ]
+Client send: truong,123123
