@@ -1,0 +1,226 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						6,
+						7
+					]
+				},
+				{
+					"build" : "lib/googletest",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.googletest-Debug-f566c6626c443d7d0c98.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "lib/googletest",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "lib/googletest/googlemock",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.googletest.googlemock-Debug-d291e652da9b1da6f1e6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "lib/googletest/googlemock",
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				},
+				{
+					"build" : "lib/googletest/googletest",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.googletest.googletest-Debug-49b4b2e473b1f7013686.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "lib/googletest/googletest",
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "chat_client_server",
+					"targetIndexes" : 
+					[
+						0,
+						6,
+						7
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "googletest-distribution",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "gmock",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "gtest",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-client-Debug-69c2fad97dcbe9c7a7be.json",
+					"name" : "client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gmock::@7712283c01f504ef6d93",
+					"jsonFile" : "target-gmock-Debug-bb77a1b2dc74f235d1ea.json",
+					"name" : "gmock",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gmock_main::@7712283c01f504ef6d93",
+					"jsonFile" : "target-gmock_main-Debug-3c52dd119dc13b897fcd.json",
+					"name" : "gmock_main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gtest::@7e3677ed2a4dc8c8eb88",
+					"jsonFile" : "target-gtest-Debug-6dfa746adaba65bbe724.json",
+					"name" : "gtest",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gtest_main::@7e3677ed2a4dc8c8eb88",
+					"jsonFile" : "target-gtest_main-Debug-9d4ae000a7f63870af78.json",
+					"name" : "gtest_main",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "new_target::@919d8671e5e914cdef54",
+					"jsonFile" : "target-new_target-Debug-2a63a58398922a27a22d.json",
+					"name" : "new_target",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "project_unit_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-project_unit_test-Debug-c65803eab66b70cf8742.json",
+					"name" : "project_unit_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-server-Debug-dfb0c149d44b9c38c705.json",
+					"name" : "server",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/truong/Documents/Project C_C++/C++ Advance/chat-clien-server-c-plus-plus/cmake-build-debug",
+		"source" : "/home/truong/Documents/Project C_C++/C++ Advance/chat-clien-server-c-plus-plus"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

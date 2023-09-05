@@ -40,6 +40,14 @@
     |--- extras                     <---- Report file and project related document link
     |--- include                    <---- Code library used
     |    |--- logging                   |---- Log Info, Error, Warning in server 
+    |    |---- socket                   |---- super class socket
+    |    |    |--- constants.h
+    |    |    |--- socket.h   
+    |    |    |--- socket.cpp
+    |    |    |--- TCPSocket.h
+    |    |    |--- TCPSocket.cpp
+    |    |--- custom_code
+    |         |--- custom_macros.h
     |--- libs
     |--- src                        <---- The application's C++ source code
     |    |--- base                      |---- Contains shared code and service 

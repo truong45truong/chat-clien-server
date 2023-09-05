@@ -1,0 +1,16 @@
+# ninja log v5
+1	1735	1693753850747277798	CMakeFiles/server.dir/include/logging/logging.cpp.o	a1c1623d83d216d3
+2	1834	1693756376299928668	CMakeFiles/client.dir/src/client/ui_console.cpp.o	2ed020ac6e580170
+5379	5494	1693756866394455193	lib/libgtest.a	a652e54b1022c144
+1062	1226	1693762805799288913	project_unit_test	47a31f1a30df1612
+0	1640	1693753850655276834	CMakeFiles/server.dir/src/server/main_server.cpp.o	1bb5374dbe3f47b7
+1628	1698	1693753842431190062	client	39be53b5d834e668
+2	1062	1693762805639288077	CMakeFiles/project_unit_test.dir/tests/test1.cpp.o	c8206eb801a28be0
+3	1829	1693756376291928708	CMakeFiles/client.dir/src/client/main_client.cpp.o	292f98050b428417
+0	1763	1693753850779278135	CMakeFiles/server.dir/src/server/server.cpp.o	8b04a76c125bd43c
+0	1450	1693756862350461500	lib/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o	da3141dd11aa349a
+2	1243	1693757694634068985	CMakeFiles/client.dir/tests/test1.cpp.o	1490494977b1c505
+2	1866	1693756376331928508	CMakeFiles/client.dir/src/client/client.cpp.o	e1b332bbded43b41
+0	5378	1693756866270455385	lib/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o	8bb994bfd2ebf76b
+5494	5503	1693756866402455181	lib/libgtest_main.a	95dfc2271528260e
+1763	1848	1693753850863279015	server	12345de48ca8e8d2

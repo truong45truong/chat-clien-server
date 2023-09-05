@@ -61,3 +61,7 @@ Client accept: 127.0.0.1
 Client send: admin,123123
 [ INFO Wednesday September 2023-26-03 00:09:1693675567,23 PM ]
 Disconnect socket
+[ INFO Wednesday September 2023-57-03 17:09:1693738660,23 AM ]
+Client accept: 127.0.0.1
+[ INFO Wednesday September 2023-57-03 17:09:1693738675,23 AM ]
+Client send: ,admin
